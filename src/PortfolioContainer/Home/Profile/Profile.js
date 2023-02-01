@@ -37,7 +37,7 @@ function Profile() {
           <div className="profile-details-role">
             <span className="primary-text">
               {" "}
-              <h1>
+              <h1 className="text-lg">
                 <Typical
                   loop={Infinity}
                   steps={[
