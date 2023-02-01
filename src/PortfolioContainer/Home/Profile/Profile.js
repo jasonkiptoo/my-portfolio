@@ -41,19 +41,19 @@ function Profile() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "React Developer 😅",
-                    1000,
-                    "Web Developer🙋‍♀️",
-                    1000,
-                    "Software Developer🤓",
-                    1000,
+                    "React Developer 👨‍💻",
+                    2000,
+                    "Web Developer 🗺️",
+                    2000,
+                    "Software Developer💻",
+                    2000,
                     "Enthusiastic Techie 🔴",
-                    1000,
+                    2000,
                   ]}
                 />
               </h1>
-              <span className="profile-role-tagline">Always Building</span>
             </span>
+            <span className="profile-role-tagline">Always Building</span>
           </div>
           <div className="profile-options">
             <button className="btn primary-btn">Hire Me</button>
