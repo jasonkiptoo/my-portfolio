@@ -1,5 +1,5 @@
 import React from "react";
-// import Typical from 'react-typical'
+import Typical from "react-typical";
 import "./Profile.css";
 function Profile() {
   return (
@@ -28,18 +28,35 @@ function Profile() {
 
           <div className="profile-details-name">
             <span className="primary-text">
-              Hello, I'm <span className="highlighted-text" style={{color: "#FF5823"}}>Jayson </span>{" "}
+              Hello, I'm{" "}
+              <span className="highlighted-text" style={{ color: "#FF5823" }}>
+                Jayson{" "}
+              </span>{" "}
             </span>
           </div>
           <div className="profile-details-role">
             <span className="primary-text">
               {" "}
-              <h1>React Developer</h1>
+              <h1>
+                <Typical
+                  loop={Infinity}
+                  steps={[
+                    "React Developer 😅",
+                    1000,
+                    "Web Developer🙋‍♀️",
+                    1000,
+                    "Software Developer🤓",
+                    1000,
+                    "Enthusiastic Techie 🔴",
+                    1000,
+                  ]}
+                />
+              </h1>
               <span className="profile-role-tagline">Always Building</span>
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn pe-2">Hire Me</button>
+            <button className="btn primary-btn">Hire Me</button>
             <a href="JasonKiptoo.pdf" download="Jason kiptoo.pdf">
               <button className="btn highlighted-btn">Get Resume</button>{" "}
             </a>
