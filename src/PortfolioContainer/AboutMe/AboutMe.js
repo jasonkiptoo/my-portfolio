@@ -1,7 +1,7 @@
 import react from "react";
 
 function AboutMe() {
-  return <div>
+  return <div className="container" id="about">
     <h1>About Me</h1>
   </div>;
 }

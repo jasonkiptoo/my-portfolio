@@ -44,6 +44,7 @@ line-height: 1.7;
 .container{
   max-width: var(--container-width-lg);
   margin: 0 auto;
+  height: 100vh;
   /* padding: 0 1rem; */
 }
 

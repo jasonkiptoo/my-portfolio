@@ -5,9 +5,9 @@ import Profile from "./Profile/Profile";
 
 function Home() {
   return (
-    <div className="home-container">
+    <div className="home-container" id="#home">
       <Profile />
-      <Navbar/>
+
 
       {/* <Footer /> */}
     </div>

@@ -2,12 +2,18 @@ import logo from "./logo.svg";
 import "./App.css";
 import Home from "./PortfolioContainer/Home/Home.js";
 import AboutMe from "./PortfolioContainer/AboutMe/AboutMe";
+import Navbar from "./PortfolioContainer/Navbar/Navbar";
+import Contact from "./PortfolioContainer/ContactMe/Contact";
+import Skills from "./PortfolioContainer/Skills/Skills";
 
 function App() {
   return (
     <div className="App">
       <Home />
-      {/* <AboutMe /> */}
+      <Navbar/>
+      <AboutMe />
+      <Skills/>
+      <Contact/>
     </div>
   );
 }
