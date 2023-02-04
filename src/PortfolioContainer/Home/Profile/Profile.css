@@ -25,10 +25,10 @@
   font-family: "cursive";
 }
 .primary-text {
-  color: (--white);
+  color: var(--white);
 }
 .highlight-text {
-  color: (--dark-orange);
+  color: var(--dark-orange);
 }
 .profile-role-tagline {
   font-size: 15px;
@@ -71,13 +71,42 @@
   transform: scale(1.07);
   transition: 1s ease-out;
 }
-.colz .colz-icon i {
-  color: aliceblue;
-  padding: 8px;
-  padding-left: 0px;
+/* ===============HEader Socials================ */
+.header-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 30.5px;
+  bottom: 3rem;
+  color: var(--white);
 }
-.colz .colz-icon i:hover {
-  transform: scale(1.5);
+.header-socials i {
+  color: var(--white);
+}
+.header-socials i:hover {
+  color: var(--light-blue);
+  transform: scale(1.8);
+  transition: 0.5s;
+}
+/* ===========scroll down text====== */
+.scroll-down a {
+  /* display: flex; */
+  cursor: pointer;
+  position: absolute;
+  transform: rotate(90deg);
+  font-weight: 200;
+  font-size: 0.9rem;
+  right: -1.3rem;
+  bottom: 5rem;
+  text-decoration: none;
+  color: var(--white);
+}
+.scroll-down a:hover {
+  color: var(--light-blue);
+  transition: 0.5s, ease-in-out;
+  /* transform: scale(1.2); */
 }
 
 @media screen and (max-width: 1110px) {
