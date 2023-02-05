@@ -13,7 +13,7 @@ function Profile() {
               <span className="primary-text">
                 Hello, I'm{" "}
                 <span className="highlighted-text" style={{ color: "#FF5823" }}>
-                  Jayson{" "}
+                  Jason{" "} Kiptoo
                 </span>{" "}
               </span>
             </div>
@@ -24,13 +24,13 @@ function Profile() {
                   <Typical
                     loop={Infinity}
                     steps={[
-                      "React Developer 👨‍💻",
+                      "a React Developer 👨‍💻",
                       2000,
-                      "Web Developer 🗺️",
+                      "a Web Developer 🗺️",
                       2000,
-                      "Software Developer💻",
+                      "a Software Developer💻",
                       2000,
-                      "Enthusiastic Techie 🔴",
+                      "a Enthusiastic Techie 🔴",
                       2000,
                     ]}
                   />
