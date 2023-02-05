@@ -1,0 +1,16 @@
+.resume-container {
+  background-color: #ff5964;
+  height: 500px;
+  display: flex;
+}
+.resume-container {
+  display: grid;
+  cursor: pointer;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding: 2%;
+  background-color: var(--color-variant);
+}
+.resume-body{
+    background-color: var(--color-primary);
+}

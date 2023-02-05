@@ -7,13 +7,13 @@ function Profile() {
   return (
     <div className="container-lg" id="home">
       <div className="profile-container">
-        <div className="profile-parent" >
+        <div className="profile-parent">
           <div className="profile-details">
             <div className="profile-details-name">
               <span className="primary-text">
                 Hello, I'm{" "}
                 <span className="highlighted-text" style={{ color: "#FF5823" }}>
-                  Jason{" "} Kiptoo
+                  Jason Kiptoo
                 </span>{" "}
               </span>
             </div>
@@ -36,7 +36,16 @@ function Profile() {
                   />
                 </h1>
               </span>
-              <span className="profile-role-tagline">Always Building</span>
+              <span className="profile-role-tagline">
+                "Crafting elegant solutions, one line of code at a time."
+              </span>
+              {/* <h2 className="profile-role-tagline">
+                "Tech-savvy software developer, Jason Kiptoo, brings a unique
+                combination of creativity and efficiency to every project. With
+                a focus on user experience, he designs and develops cutting-edge
+                applications that are both functional and aesthetically
+                pleasing."
+              </h2> */}
             </div>
             <div className="profile-options">
               <button className="btn primary-btn">Hire Me</button>
@@ -45,7 +54,7 @@ function Profile() {
               </a>
             </div>
           </div>
-         <div className="profile-image">
+          <div className="profile-image">
             <div className="profile-image-background"></div>
           </div>
         </div>
