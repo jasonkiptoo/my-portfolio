@@ -9,7 +9,7 @@ import Typical from "react-typical";
 
 function AboutMe() {
   return (
-    <div className="container" id="about">
+    <div className="container-lg" id="about">
       <div className="about-header">
         <h5>Get to Know</h5>
         <h2>About Me</h2>
