@@ -1,7 +1,7 @@
 .contact-header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   padding-bottom: 3%;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -19,8 +19,14 @@
   width: 200px;
   background-color: var(--color-variant);
   border-radius: 50%;
+  padding: auto;
 
   text-align: center;
+}
+.contact-card:hover{
+    transform: rotate(360deg);
+    transition: 1.5s;
+    background-color: #FF5964;
 }
 .contact-form{
     display: flex;
@@ -44,6 +50,6 @@
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: auto;
+    padding-left: 20%;
   }
 }
