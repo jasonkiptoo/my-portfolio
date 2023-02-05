@@ -23,21 +23,22 @@ function AboutMe() {
         <div className="aboutme-content">
           <div className="about-cards">
             <article className="about-card">
-              <i className="fas fa-user">
+              <i className="fas fa-user fa-2x">
                 <BsAward />
               </i>
               <h5>Experience</h5>
-              <small>3+ year Working</small>
+              <small>3+ year Working Experience</small>
             </article>
             <article className="about-card">
-              <i className="fas fa-user">
+              <i className="fas fa-user fa-2x">
                 <HiUsers />
               </i>
               <h5>Clients</h5>
-              <small>300</small>
+              <small>300+ satisfied</small>
             </article>
+
             <article className="about-card">
-              <i className="fas fa-user">
+              <i className="fas fa-user fa-2x">
                 <AiOutlineFundProjectionScreen />
               </i>
               <h5>Projects</h5>
@@ -51,8 +52,10 @@ function AboutMe() {
             expectations by ensuring they look good, run smoothly and offer easy
             access points with no loading issues between pages or error
             messages.{" "}
+            <div className="aboutme-btn">
+              <a href="#contact"> Let's Talk</a>
+            </div>
           </p>
-          <a href="#contact"> Let's Talk</a>
         </div>
       </div>
     </section>

@@ -37,16 +37,51 @@
   transform: rotate(0deg);
 }
 .about-cards {
+  align-items: center;
+  justify-content: center;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
-.about-card{
-    background:  var(--color-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: center;
-}
 .about-card {
+  background: var(--color-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
 }
+.about-card:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid var(--color-primary);
+  box-shadow: 0 0 1rem var(--color-primary-variant);
+  transform: translateY(-0.5rem);
+  transition: all 0.3s ease-in-out;
+}
+.aboutme-btn a {
+  background-color: var(--color-variant);
+  text-decoration: none;
+  border-radius: 5%;
+  padding: 0.4rem;
+  color: var(--white);
+}
+.aboutme-btn a:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid var(--color-primary);
+  box-shadow: 0 0 1rem var(--color-primary-variant);
+  transform: translateY(-0.5rem);
+  transition: all 0.3s ease-in-out;
+}
+.about-cards i {
+  color: var(--color-primary);
+}
+p {
+  color: var(--color-light);
+
+  padding: 2rem;
+}
+
+
+/* media queriess */
+

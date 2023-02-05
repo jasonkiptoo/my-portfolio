@@ -37,13 +37,14 @@
 }
 .profile-options .btn {
   margin: 0 0 0 28px;
+  /* background-color: aqua; */
 }
 .profile-options,
-.highlight-btn {
+.highlighted-btn {
   padding: 11px;
   margin: 0 0 0 28px;
 }
-.profile-options .highlight-btn:hover {
+.profile-options .highlighted-btn:hover {
   margin: 0 0 0 28px;
   background-color: cornsilk;
   color: #111;
@@ -87,7 +88,7 @@
 }
 .header-socials i:hover {
   color: var(--light-blue);
-  transform: scale(1.8);
+  transform: scale(3.8);
   transition: 0.5s;
 }
 /* ===========scroll down text====== */
@@ -106,7 +107,6 @@
 .scroll-down a:hover {
   color: var(--light-blue);
   transition: 0.5s, ease-in-out;
-  /* transform: scale(1.2); */
 }
 
 @media screen and (max-width: 1110px) {
