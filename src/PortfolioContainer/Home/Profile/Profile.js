@@ -7,7 +7,7 @@ function Profile() {
   return (
     <div className="container-lg" id="home">
       <div className="profile-container">
-        <div className="profile-parent">
+        <div className="profile-parent" >
           <div className="profile-details">
             <div className="profile-details-name">
               <span className="primary-text">
@@ -20,7 +20,7 @@ function Profile() {
             <div className="profile-details-role">
               <span className="primary-text">
                 {" "}
-                <h1 className="text-lg">
+                <h1 className="text">
                   <Typical
                     loop={Infinity}
                     steps={[
@@ -45,7 +45,7 @@ function Profile() {
               </a>
             </div>
           </div>
-          <div className="profile-image">
+         <div className="profile-image">
             <div className="profile-image-background"></div>
           </div>
         </div>
