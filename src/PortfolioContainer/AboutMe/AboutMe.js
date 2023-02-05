@@ -11,7 +11,7 @@ function AboutMe() {
   return (
     <div className="container" id="about">
       <div className="about-header">
-        <h5>Get to Know Me</h5>
+        <h5>Get to Know</h5>
         <h2>About Me</h2>
       </div>
       <div className="container-about">
