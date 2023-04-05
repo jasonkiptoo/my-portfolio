@@ -32,7 +32,7 @@ function Resume() {
 ];
   return (
         <div className="container">
-      <div className="resume-container">
+      {/* <div className="resume-container">
         <div className="resume-header">
           {items.map((item) => (
         <ListItem key={item.id} item={item} onClick={() => handleClick(item)} />
@@ -41,7 +41,7 @@ function Resume() {
         <div className="resume-body">
           {selectedItem && <ItemDetails item={selectedItem} />}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
