@@ -1,6 +1,30 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Resume.css";
 function Resume() {
+const [selectedItem, setSelectedItem] = useState(null);
+
+function handleClick(item) {
+  setSelectedItem(item);
+  console.log(` i have been c ${item.title}`);
+}
+
+function ListItem({ item, onClick }) {
+  return (
+    <div onClick={onClick}>
+      <h3>{item.title}</h3>
+    </div>
+  );
+}
+function ItemDetails({ item }) {
+  return (
+    <div>
+      <h3>{item.title}</h3>
+      <p>{item.description}</p>
+      <img src={item.image} alt={item.title} />
+    </div>
+  );
+}
+
   const items = [
   {
     id: 1,
@@ -32,7 +56,7 @@ function Resume() {
 ];
   return (
         <div className="container">
-      {/* <div className="resume-container">
+      <div className="resume-container">
         <div className="resume-header">
           {items.map((item) => (
         <ListItem key={item.id} item={item} onClick={() => handleClick(item)} />
@@ -41,7 +65,7 @@ function Resume() {
         <div className="resume-body">
           {selectedItem && <ItemDetails item={selectedItem} />}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
@@ -55,7 +79,7 @@ export default Resume;
 
 // import React, {useState} from 'react';
 
-// export function App(props) {
+// export function Resume(props) {
 // const [selectedItem, setSelectedItem] = useState(null);
 
 // function handleClick(item) {
@@ -73,10 +97,21 @@ export default Resume;
 // }
 // function ItemDetails({ item }) {
 //   return (
-//     <div>
-//       <h3>{item.title}</h3>
-//       <p>{item.description}</p>
-//       <img src={item.image} alt={item.title} />
+//     <div className="container">
+//       <div className="resume-container">
+//         <div className="resume-header">
+//           {items.map((item) => (
+//             <ListItem
+//               key={item.id}
+//               item={item}
+//               onClick={() => handleClick(item)}
+//             />
+//           ))}
+//         </div>
+//         <div className="resume-body">
+//           {selectedItem && <ItemDetails item={selectedItem} />}
+//         </div>
+//       </div>
 //     </div>
 //   );
 // }
